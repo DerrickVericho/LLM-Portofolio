@@ -46,7 +46,14 @@ dependencies:
     - langchain-ollama
     - langchain-chroma
     - langchain-community
+    - langgraph
+    - langgraph-sdk
+    - langgraph-prebuilt
+    - langgraph-checkpoint-sqlite
+    - langgraph-cli[inmem]
+    - langsmith
     - feedparser
+    - fastapi
     - twilio
     - pydub
     - protobuf==3.20.2

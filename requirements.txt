@@ -6,6 +6,7 @@ pandas
 scipy
 scikit-learn
 streamlit
+fastapi
 matplotlib
 gensim
 torch
@@ -22,6 +23,12 @@ langchain-openai
 langchain-ollama
 langchain-chroma
 langchain-community
+langgraph
+langgraph-sdk
+langgraph-prebuilt
+langgraph-checkpoint-sqlite
+langgraph-cli[inmem]
+langsmith
 datasets==3.6.0
 matplotlib
 google-generativeai
