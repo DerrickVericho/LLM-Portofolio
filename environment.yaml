@@ -58,4 +58,5 @@ dependencies:
     - pydub
     - protobuf==3.20.2
     - pinecone-client
+    - trustcall
     - wikipedia

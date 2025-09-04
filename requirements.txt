@@ -47,6 +47,7 @@ setuptools
 speedtest-cli
 soundfile
 sentence_transformers
+trustcall
 feedparser
 protobuf==3.20.2
 pinecone-client
