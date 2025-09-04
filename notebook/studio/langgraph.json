@@ -6,7 +6,8 @@
     "agent": "./agent.py:graph",
     "chatbot": "./chatbot.py:graph",
     "dynamic_breakpoints": "./dynamic_breakpoints.py:graph",
-    "parallelization": "./parallelization.py:graph"
+    "parallelization": "./parallelization.py:graph",
+    "research_assistant": "./research_assistant.py:graph"
   },
   "env": "./.env",
   "python_version": "3.11",
