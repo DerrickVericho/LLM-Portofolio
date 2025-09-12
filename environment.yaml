@@ -19,9 +19,12 @@ dependencies:
   - pyarrow
   - pip:
     - accelerate
+    - agno
     - beautifulsoup4
     - bitsandbytes
     - plotly
+    - pypdf
+    - PyPDF2
     - transformers
     - sentence-transformers
     - streamlit
@@ -52,6 +55,7 @@ dependencies:
     - langgraph-checkpoint-sqlite
     - langgraph-cli[inmem]
     - langsmith
+    - lancedb
     - feedparser
     - fastapi
     - twilio
