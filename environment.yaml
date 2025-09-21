@@ -49,6 +49,7 @@ dependencies:
     - langchain-ollama
     - langchain-chroma
     - langchain-community
+    - langchain-mcp-adapters
     - langgraph
     - langgraph-sdk
     - langgraph-prebuilt
@@ -64,3 +65,4 @@ dependencies:
     - pinecone-client
     - trustcall
     - wikipedia
+    - sentencepiece

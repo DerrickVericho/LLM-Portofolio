@@ -23,6 +23,7 @@ langchain-openai
 langchain-ollama
 langchain-chroma
 langchain-community
+langchain-mcp-adapters
 langgraph
 langgraph-sdk
 langgraph-prebuilt
