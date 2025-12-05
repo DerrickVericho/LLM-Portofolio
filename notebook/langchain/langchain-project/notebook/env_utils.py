@@ -2,12 +2,14 @@
 import os
 from dotenv import dotenv_values
 
+
 def summarize_value(value: str) -> str:
     """Return masked form: ****last4 or boolean string."""
     lower = value.lower()
     if lower in ("true", "false"):
         return lower
     return "****" + value[-4:] if len(value) > 4 else "****" + value
+
 
 def doublecheck_env(file_path: str):
     """Check environment variables against a .env file and print summaries."""
